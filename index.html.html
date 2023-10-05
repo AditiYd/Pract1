@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Shop-Home</title>
+    <style>
+    .prop{
+        background-color:#b88e5b; 
+    }
+    .box{
+        background-color: white;
+        width: 1050px;
+        height: 550px;
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+    
+    header{
+        display:flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .sitename{
+        color: black;
+        margin-right: 0;
+    }
+    .middle{
+       margin-left: 350px;
+    }
+    
+    .Searchcart{
+       margin-left: 200px;
+    } 
+    
+    nav ul{
+        display: inline-block;
+        list-style-type: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .buttons{
+        background-color:black;
+        color: white;
+        text-align: center;
+        border: 0;
+        width: 150px;
+        height: 40px;
+    }
+    
+    .picture{
+        margin-left: 300px;
+    }
+    a{
+     color: black;
+     text-decoration: none
+    }
+    content{
+        display:flex;
+        align-items: center;
+        padding: 20px;
+        padding-left: 150px;
+    }
+    .pic{
+        width: 250px;
+    }
+    .foot{
+        margin-left: 470px;
+    }
+
+</style>
+
+</head>
+<body class="prop">
+    <div class="box">
+    <header>
+           <div class="middle">
+                <nav >
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Catalogue</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div> 
+
+            <div class="Searchcart">
+                <nav >
+                    <ul>
+                        <li><a href="">Search</a></li>
+                        <li><a href="">Cart</a></li>
+                    </ul>
+                </nav>
+            </div>    
+    </header>
+    <content >
+        <div >
+            <h1>Find perfect plants<br>for your home</h1>
+            <p>Beautiful plants that encourage<br>you to get creative.</p><br>
+            <button type="button"  class="buttons">SHOP NOW</button>
+        </div>  
+
+        <div class="picture">
+            <img class = "pic" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl9O4iONhe4_YcWQ_d0yvT7NLBYpWaqQ-ubQ&usqp=CAU">
+        </div>
+    </content>
+
+    <footer>
+        <h2 class = "foot">Categories</h2>
+    </footer>
+    </div>
+
+</body>
+
+</html>
